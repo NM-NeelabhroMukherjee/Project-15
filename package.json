@@ -1,0 +1,25 @@
+{
+  "name": "privacy-notes-app",
+  "version": "1.0.0",
+  "description": "Privacy-focused notes application with client-side encryption",
+  "scripts": {
+    "start": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "keywords": [
+    "notes",
+    "encryption",
+    "privacy",
+    "react",
+    "indexeddb"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
